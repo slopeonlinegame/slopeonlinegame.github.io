@@ -1,0 +1,102 @@
+.ads-title {
+    text-align: center;
+    color: #000;background: #36A1CE;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.ads-margin {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+
+    /* position: relative; */
+}
+
+/* .fix_title_ads .ads-title {
+    background: unset;
+    position: absolute;
+    top: 0;
+    width: 100%;
+} */
+
+.ads,
+.ads-slot img {
+    width: 100%;
+}
+
+.ads-slot {
+    overflow: hidden
+}
+
+.myads {
+    display: block;
+    position: absolute;
+    top: 85px;
+}
+
+.ads_left {
+    left: 0;
+    text-align: left;
+
+}
+
+.ads_right {
+    right: 0;
+    text-align: right;
+}
+
+@media (max-width:1365px) {
+    .myads {
+        display: none;
+    }
+}
+
+.ads-doc {
+    width: 160px;
+    max-width: 160px;
+}
+
+@media (min-width:1600px) {
+    .ads-doc {
+        width: 300px;
+        max-width: 300px
+    }
+}
+
+.ads-ngang {
+    width: 300px;
+    max-width: 300px
+}
+
+/* fix */
+@media (min-width:758px) {
+    .ads-ngang {
+        width: 728px;
+        max-width: 728px
+    }
+}
+
+@media (min-width:798px) {
+    .ads-ngang {
+        width: 768px;
+        max-width: 768px
+    }
+}
+
+@media (min-width:1000px) {
+    .ads-ngang {
+        width: 970px;
+        max-width: 970px
+    }
+}
+
+/* @media screen and (max-width:1821px) {
+    .container {
+        width: 1281px
+    }
+} */
